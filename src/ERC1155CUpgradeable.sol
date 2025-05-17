@@ -15,11 +15,14 @@ contract ERC1155CUpgradeable is ERC1155, ERC2981, Ownable, UUPSUpgradeable, ICre
     address private _transferValidator;
 
     constructor() {
+        // initialize owner to the deployer
         _initializeOwner(msg.sender);
+        // set ERC2981 default royalty (500 is 5% in basis points)
         _setDefaultRoyalty(msg.sender, 500);
         // default creator token transfer validator (v5)
         // https://apptokens.com/docs/integration-guide/creator-token-standards/v5/contract-deployments
         _transferValidator = 0x721C008fdff27BF06E7E123956E2Fe03B63342e3;
+        emit TransferValidatorUpdated(address(0), _transferValidator);
     }
 
     function uri(uint256) public pure override returns (string memory) {
