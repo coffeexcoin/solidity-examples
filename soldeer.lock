@@ -1,0 +1,20 @@
+[[dependencies]]
+name = "forge-std"
+version = "1.9.7"
+url = "https://soldeer-revisions.s3.amazonaws.com/forge-std/1_9_7_28-04-2025_15:55:08_forge-std-1.9.zip"
+checksum = "8d9e0a885fa8ee6429a4d344aeb6799119f6a94c7c4fe6f188df79b0dce294ba"
+integrity = "9e60fdba82bc374df80db7f2951faff6467b9091873004a3d314cf0c084b3c7d"
+
+[[dependencies]]
+name = "limitbreakinc-creator-token-standards"
+version = "5.0.0"
+url = "https://soldeer-revisions.s3.amazonaws.com/limitbreakinc-creator-token-standards/5_0_0_06-05-2025_05:39:15_limitbreakinc-creator-token-standards-5.0.zip"
+checksum = "736b7354860ae8721d44a76090146e35a4b86fd3dc9eb885553b8dc8fe0a1f30"
+integrity = "58d1dc0e1b89e6d4718ce2e6eb76db02a9910267d23226898385c5c9db5027dc"
+
+[[dependencies]]
+name = "solady"
+version = "0.1.18"
+url = "https://soldeer-revisions.s3.amazonaws.com/solady/0_1_18_08-05-2025_07:38:31_solady.zip"
+checksum = "11ee73122d57d003b1dd71050018ebfc82eeb0539d4cdbd50107270d6b784104"
+integrity = "69861f770717fb6d7365ce26f3359d223644fdc38d45330632b52306dd0cb8db"
